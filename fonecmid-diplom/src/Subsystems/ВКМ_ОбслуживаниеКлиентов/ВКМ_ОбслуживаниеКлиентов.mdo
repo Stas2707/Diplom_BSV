@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56f09b2c-06f3-4c63-be27-784a8537da1e">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ВКМ_ОбслуживаниеКлиентовКартинка</picture>
+  </picture>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Constant.ВКМ_ТокенТелеграмБота</content>
+  <content>Constant.ВКМ_ИдентификаторТелеграмГруппы</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат</content>
+  <content>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Constant.ВКМ_НДФЛ</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Role.ВКМ_ДобавлениеИзменение_ДокументовПоРасчетуЗарплаты</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Role.ВКМ_ЧтениеОтчетаВыработкаСпециалистов</content>
+  <content>Role.ВКМ_ЧтениеОтчетовИТБухгалтера</content>
+  <content>Role.ВКМ_ЧтениеОтчетовСпециалистаПоКадрам</content>
+  <content>CommonForm.ВКМ_НастройкиРасчетаЗарплаты</content>
+</mdclass:Subsystem>
