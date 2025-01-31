@@ -397,6 +397,9 @@
     <mdObject>Constant.НастройкиКолонтитулов</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ИспользоватьГруппыПользователей</mdObject>
   </content>
   <content>
